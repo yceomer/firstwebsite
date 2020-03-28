@@ -184,16 +184,6 @@ span {
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
 }
 
-/*-------------------------------------------------------------
-#whatsapp action
--------------------------------------------------------------*/
-
-.whatsapp-position{
-    position: absolute;
-    right: 900px;
-    -webkit-filter: opacity(70%);
-}
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -260,8 +250,6 @@ span {
 #hero img {
   max-width: 100%;
   margin-bottom: 80px;
-  position:relative;
-  left: -400px;
 }
 
 #hero .btn-get-started {
