@@ -110,7 +110,7 @@ span {
   display: none;
   background: #71c55d;
   line-height: 1;
-  color: #fff;
+  color: #bebebe;
   padding: 7px 12px 13px 12px;
   font-size: 16px;
   border-radius: 2px;
@@ -184,6 +184,16 @@ span {
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
 }
 
+/*-------------------------------------------------------------
+#whatsapp action
+-------------------------------------------------------------*/
+
+.whatsapp-position{
+    position: absolute;
+    right: 900px;
+    -webkit-filter: opacity(70%);
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -193,7 +203,7 @@ span {
   background: url(../img/hero-bg.png) center bottom no-repeat;
   background-size: 100%;
   position: relative;
-  margin-top: 40px;
+  margin-top: 135px;
 }
 
 @media (min-width: 1025px) {
@@ -248,21 +258,23 @@ span {
 }
 
 #hero img {
-  max-width: 95%;
-  margin-bottom: 30px;
+  max-width: 100%;
+  margin-bottom: 80px;
+  position:relative;
+  left: -400px;
 }
 
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 13px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 11px 36px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin-bottom: 30px;
+  padding: 12px 40px;
+  border-radius: 100px;
+  transition: 1.0s;
+  margin-bottom: 10px;
   border: 2px solid #71c55d;
   background: #fff;
   color: #71c55d;
