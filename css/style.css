@@ -625,7 +625,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 /* About Us Section
 --------------------------------*/
 #about-us img {
-  max-width: 100%;
+  max-width: 100%; 
 }
 
 #about-us .about-content {
