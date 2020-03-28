@@ -1317,6 +1317,26 @@ body.mobile-nav-active #mobile-nav-toggle i {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.ranking-value{
+   position: absolute;
+   top: 1px;
+left: 300px; 
+         
+         
+}
+.ranking-value li{
+          list-style: none;
+         color: white;
+         text-align: center;
+}
+.ranking-value h4{
+         color: white;
+         padding-bottom: 10px;
+         
+         
+         
+}
+
 .footer {
   background: #2a2c30;
   padding-top: 50px;
